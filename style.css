@@ -1,0 +1,100 @@
+@charset "utf8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: '游ゴシック', 'YuGothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
+	color: #fff;
+	background: #ff7777;
+}
+
+.border {
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0.5;
+}
+.border.border1 {
+	height: calc(100% - 70px);
+	width: calc(100% - 70px);
+	border: solid 4px #fff;
+}
+.border.border2 {
+	height: calc(100% - 50px);
+	width: calc(100% - 50px);
+	border: solid 2px #fff;
+}
+
+main {
+	display: block;
+	height: 100vh;
+}
+	main > article {
+		position: relative;
+		width: calc(100% - 128px);
+		max-width: 1500px;
+		margin: 0 auto;
+		height: 100vh;
+	}
+		main > article > div {
+			position: absolute;
+			top: 30%;
+			left: 0;
+			right: -150px;
+			width: 500px;
+			margin: 0 auto;
+		}
+			main > article > div > h1 {
+				margin: 0;
+				padding: 0;
+				font-size: 2em;
+				font-weight: bold;
+			}
+			main > article > div > p {
+				font-weight: bold;
+			}
+
+#ai {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 50vw;
+}
+#sign {
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	height: 100px;
+}
+
+#gallery {
+	position: relative;
+	text-align: center;
+	padding: 0 128px 64px 128px;
+	color: #fff;
+	background: #434d52;
+}
+	#gallery > h2 {
+		margin: 0;
+		padding: 64px;
+		font-size: 2em;
+		font-weight: bold;
+	}
+		#gallery > h2 > *:not(.tag) {
+			font-variant: small-caps;
+		}
+	#gallery > div {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 64px;
+	}
+		#gallery > div > section > img {
+			max-height: 500px;
+			max-width: 100%;
+		}
