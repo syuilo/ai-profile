@@ -1,4 +1,4 @@
-// https://github.com/nagiept/share-buttons/blob/master/js/share.js
+// https://nagiept.github.io/share-buttons-simple/js/share.js
 
 $(function(){
 
@@ -39,8 +39,16 @@ $(function(){
 				$(this).attr('href','https://www.linkedin.com/shareArticle?mini=true&url='+ pageUrl +'&title='+ pageTitle);
 			break;
 
+			case 'myspace_s':
+				$(this).attr('href','https://myspace.com/post?u='+ pageUrl +'&t='+ pageTitle);
+			break;
+
 			case 'vk_s':
 				$(this).attr('href','http://vkontakte.ru/share.php?url='+ pageUrl);
+			break;
+
+			case 'odnoklassniki_s':
+				$(this).attr('href','http://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl='+ pageUrl +'&st.comments='+ pageTitle);
 			break;
 
 			case 'stumbleupon_s':
@@ -49,6 +57,14 @@ $(function(){
 
 			case 'weibo_s':
 				$(this).attr('href','http://service.weibo.com/share/share.php?title='+ pageTitle +'&url='+ pageUrl);
+			break;
+
+			case 'renren_s':
+				$(this).attr('href','http://www.connect.renren.com/share/sharer?url='+ pageUrl +'&title='+ pageTitle);
+			break;
+
+			case 'qzone_s':
+				$(this).attr('href','https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+ pageUrl);
 			break;
 
 			case 'mixi_s':
@@ -83,6 +99,16 @@ $(function(){
     					var instDomain = $input.val();
   					$(document).ready(function() {
 						$('#mastodon_s').attr('href','https://'+ instDomain +'/share?text='+ pageTitle +'%0A'+ pageUrl);
+					});
+				});
+			break;
+
+			case 'misskey_s':
+				var $input = $('#misskey');
+  				$input.on('input', function(event) {
+    					var instDomain = $input.val();
+  					$(document).ready(function() {
+						$('#misskey_s').attr('href','https://'+ instDomain +'/share?text='+ pageTitle +'%0A'+ pageUrl);
 					});
 				});
 			break;
