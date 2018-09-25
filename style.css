@@ -100,6 +100,9 @@ main {
 			max-height: 400px;
 			max-width: 100%;
 		}
+	#gallery > aside {
+		padding: 64px 0 0 0;
+	}
 
 #wanted {
 	text-align: center;
@@ -114,5 +117,5 @@ body > footer {
 	background: #0d0e0e;
 }
 	body > footer > small {
-		font-size: 16px;
+		font-size: 14px;
 	}
