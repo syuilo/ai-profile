@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vmdedn');
+  src:  url('fonts/icomoon.eot?vmdedn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vmdedn') format('truetype'),
+    url('fonts/icomoon.woff?vmdedn') format('woff'),
+    url('fonts/icomoon.svg?vmdedn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts
+  but i do not use it to avoid race condition with other webfonts*/
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mixi:before {
+  content: "\e908";
+}
+.icon-zerome:before {
+  content: "\e910";
+}
+.icon-new-beluga:before {
+  content: "\e904";
+}
+.icon-snupps:before {
+  content: "\e909";
+}
+.icon-scp-foundation:before {
+  content: "\e90a";
+}
+.icon-niconico:before {
+  content: "\e90b";
+}
+.icon-beluga:before {
+  content: "\e90c";
+}
+.icon-yayaka19:before {
+  content: "\e90d";
+}
+.icon-bilibili:before {
+  content: "\e90e";
+}
+.icon-gab:before {
+  content: "\e90f";
+}
+.icon-mastodon:before {
+  content: "\e900";
+}
+.icon-pleroma:before {
+  content: "\e905";
+}
+.icon-pixiv:before {
+  content: "\e906";
+}
+.icon-misskey:before {
+  content: "\e907";
+}
+.icon-diaspora:before {
+  content: "\e902";
+}
+.icon-gnusocial:before {
+  content: "\e903";
+}
+.icon-qiita:before {
+  content: "\e901";
+}
+.icon-hatebu:before {
+  content: "\e911";
+}
+.icon-line:before {
+  content: "\e912";
+}

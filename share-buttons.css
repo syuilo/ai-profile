@@ -1,0 +1,96 @@
+.share-ul {
+	text-align: center;
+	padding-left: 0;}
+
+.share-button {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left !important;
+	list-style: none;
+	letter-spacing: -.4em;
+	margin: 0 16px;
+	margin-bottom: .4em;
+	width: 64px;
+	height: 64px;
+	transition-property: width;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 0, 0, 1);
+	overflow: hidden;
+	white-space: nowrap;
+	border-radius: 32px;
+	border: solid 1px currentColor;}
+
+.share-button:hover {
+	background: rgba(255, 255, 255, 0.1);}
+
+.share-button i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 24px;
+	letter-spacing: normal;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+	-moz-transform: translateY(-50%) translateX(-50%);
+	-o-transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);}
+
+.share-button a {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	width: 100%;
+	height: 100%;}
+
+input.sharebox {
+	display: none;}
+
+.share-button label {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: normal;
+	width: 64px;
+	height: 64px;
+	cursor: pointer;}
+
+input.sharebox:checked + .share-button {
+	width: 256px;}
+
+.domain-input {
+	display: inline-block;
+	position: relative;
+	letter-spacing: normal;
+	vertical-align: top;
+	width: 128px;
+	height: 100%;}
+
+.share-a {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	letter-spacing: normal;
+	width: 64px;
+	height: 64px;}
+
+.domain-input input[type="url"] {
+	-webkit-appearance: none;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	text-align: left;
+	letter-spacing: normal;
+	padding: 8px;
+	border: none;
+	border-bottom: solid 1px #fff;
+	background: transparent;
+	color: #fff;
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;}
