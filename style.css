@@ -58,6 +58,9 @@ main {
 				font-size: 2em;
 				font-weight: bold;
 			}
+				main > article > div > h1 rt {
+					display: none;
+				}
 			main > article > div > p {
 				font-weight: bold;
 			}
