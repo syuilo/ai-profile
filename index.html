@@ -17,6 +17,7 @@
 		<link rel="icon" href="favicon.ico">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.0/css/fork-awesome.min.css" integrity="sha256-sX8HLspqYoXVPetzJRE4wPhIhDBu2NB0kYpufzkQSms=" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="icomoon/style.css">
 		<link rel="stylesheet" href="share-buttons.css">
@@ -45,6 +46,50 @@
 				</div>
 			</article>
 		</main>
+
+		<article id="photo">
+			<!-- Slider main container -->
+			<div class="swiper-container gallery-top">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide" style="background-image:url(aiart/17.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(aiart/14.jpg)"></div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next swiper-button-white"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+			</div>
+			<div class="swiper-container gallery-thumbs">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide" style="background-image:url(aiart/17.jpg)"></div>
+					<div class="swiper-slide" style="background-image:url(aiart/14.jpg)"></div>
+				</div>
+			</div>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+
+			<!-- Initialize Swiper -->
+			<script>
+				const galleryThumbs = new Swiper('.gallery-thumbs', {
+					spaceBetween: 10,
+					slidesPerView: 4,
+					freeMode: true,
+					watchSlidesVisibility: true,
+					watchSlidesProgress: true,
+				});
+				const galleryTop = new Swiper('.gallery-top', {
+					spaceBetween: 10,
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+					thumbs: {
+						swiper: galleryThumbs
+					}
+				});
+			</script>
+		</article>
 
 		<article id="wanted">
 			<h2>#AiArt募集中！</h2>
@@ -93,10 +138,6 @@
 					<h3>by @noizenecio</h3>
 				</section>
 				<section>
-					<img src="aiart/7.png" alt=""/>
-					<h3>by @i0e__m</h3>
-				</section>
-				<section>
 					<img src="aiart/8.png" alt=""/>
 					<h3>by @i0e__m</h3>
 				</section>
@@ -113,20 +154,8 @@
 					<h3>by @siotter0</h3>
 				</section>
 				<section>
-					<img src="aiart/13.jpg" alt=""/>
-					<h3>by @syuilo</h3>
-				</section>
-				<section>
-					<img src="aiart/14.jpg" alt=""/>
-					<h3>by @syuilo</h3>
-				</section>
-				<section>
 					<img src="aiart/16.png" alt=""/>
 					<h3>by @weep</h3>
-				</section>
-				<section>
-					<img src="aiart/17.jpg" alt=""/>
-					<h3>by @syuilo</h3>
 				</section>
 			</div>
 			<aside>
