@@ -135,10 +135,12 @@ main {
 		max-width: 1300px;
 		margin: 0 auto;
 	}
-		#gallery > .grid > section > img {
-			max-height: 400px;
-			max-width: 100%;
+		#gallery > .grid > section > a {
 		}
+			#gallery > .grid > section > a > img {
+				max-height: 400px;
+				max-width: 100%;
+			}
 	#gallery > aside {
 		margin-top: 64px;
 		padding: 64px;
