@@ -136,6 +136,8 @@ main {
 		margin: 0 auto;
 	}
 		#gallery > .grid > section > a {
+			display: block;
+			width: 100%;
 		}
 			#gallery > .grid > section > a > img {
 				max-height: 400px;
