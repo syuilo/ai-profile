@@ -114,20 +114,20 @@ main {
 	opacity: 1;
 }
 
-#gallery {
+._gallery {
 	position: relative;
 	text-align: center;
 	padding: 64px 128px 128px 128px;
 	color: #fff;
 	background: #111317;
 }
-	#gallery > h2 {
+	._gallery > h2 {
 		margin: 0;
 		padding: 64px;
 		font-size: 38px;
 		font-weight: bold;
 	}
-	#gallery > .grid {
+	._gallery > .grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 64px;
@@ -135,15 +135,15 @@ main {
 		max-width: 1300px;
 		margin: 0 auto;
 	}
-		#gallery > .grid > div > a {
+		._gallery > .grid > div > a {
 			display: block;
 			width: 100%;
 		}
-			#gallery > .grid > div > a > img {
+			._gallery > .grid > div > a > img {
 				max-height: 400px;
 				max-width: 100%;
 			}
-	#gallery > aside {
+	._gallery > aside {
 		margin-top: 64px;
 		padding: 64px;
 		background: #0c0d0e;
