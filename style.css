@@ -135,11 +135,11 @@ main {
 		max-width: 1300px;
 		margin: 0 auto;
 	}
-		#gallery > .grid > section > a {
+		#gallery > .grid > div > a {
 			display: block;
 			width: 100%;
 		}
-			#gallery > .grid > section > a > img {
+			#gallery > .grid > div > a > img {
 				max-height: 400px;
 				max-width: 100%;
 			}
