@@ -151,6 +151,13 @@ main {
 		background-image: repeating-linear-gradient(135deg, transparent, transparent 4px, #090a0a 4px, #090a0a 20px);
 	}
 
+.galleryItem {
+	min-width: 0;
+}
+	.galleryItem > p {
+		word-wrap: break-word;
+	}
+
 #share {
 	padding: 68px 0 82px 0;
 	background: #111317;
