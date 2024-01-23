@@ -1,64 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="500"
-   height="300"
-   viewBox="0 0 132.29166 79.375002"
-   version="1.1"
-   id="svg8"
-   inkscape:version="0.92.1 r15371"
-   sodipodi:docname="ai-sign.svg">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="389.88123"
-     inkscape:cy="297.19375"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     units="px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="-8"
-     inkscape:window-y="1072"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata5">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="レイヤー 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-217.62498)">
-    <path
-       id="path4487"
-       style="fill:none;stroke:#ffffff;stroke-width:3.70416665;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 79.711171,249.20093 1.783107,-1.14736 m -47.97488,17.90706 c -4.81085,-4.67722 -13.045367,-4.17211 -14.031651,0.66817 -1.258583,6.17662 8.76503,8.6001 14.432556,5.47903 6.059034,-3.33668 25.43646,-32.10755 33.275054,-29.66692 6.767244,2.10706 -4.543581,28.33058 -4.543581,28.33058 0,0 -18.190363,-24.73429 -26.994221,-16.57072 -7.349912,6.81537 15.768901,18.17433 26.994221,16.57072 9.621703,0.13363 15.902537,-17.10526 15.902537,-17.10526 0,0 -4.944487,14.03166 5.479025,14.56619 10.423512,0.53454 32.061302,-13.5511 25.657872,-17.50616 -4.54357,-2.80632 -13.497109,5.34539 -13.497109,5.34539 0,0 2.35973,-12.04348 -4.142676,-7.88444 -4.923852,3.14937 -3.207069,16.44287 4.677212,17.37251 6.815383,2.67271 16.704353,-0.66817 16.704353,-0.66817"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccssscsccsscscc" />
-  </g>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="レイヤー-1" serif:id="レイヤー 1" transform="matrix(1,0,0,1,0,-822.52)">
+        <g id="path4487" transform="matrix(0.678544,0,0,0.678544,75.2996,401.189)">
+            <path d="M301.271,941.862L308.01,937.525M126.688,1005.21C108.505,987.528 77.382,989.437 73.654,1007.73C68.898,1031.08 106.782,1040.24 128.203,1028.44C151.103,1015.83 224.341,907.088 253.967,916.312C279.544,924.276 236.794,1023.39 236.794,1023.39C236.794,1023.39 168.043,929.904 134.769,960.759C106.99,986.518 194.368,1029.45 236.794,1023.39C273.16,1023.89 296.898,958.738 296.898,958.738C296.898,958.738 278.21,1011.77 317.606,1013.79C357.002,1015.81 438.783,962.575 414.581,947.627C397.408,937.02 363.568,967.83 363.568,967.83C363.568,967.83 372.487,922.311 347.911,938.03C329.301,949.934 335.79,1000.18 365.589,1003.69C382.835,1010.45 409.126,1007.16 428.246,998.581C499.435,966.651 498.47,810.412 419.575,760.939L390.1,694.621L353.257,746.202C309.563,725.858 244.295,720.675 204.409,740.307L183.776,672.514L139.564,746.202C51.735,803.663 56.171,883.374 95.352,930.419" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:14px;"/>
+        </g>
+        <g id="path44871" serif:id="path4487" transform="matrix(0.678544,0,0,0.678544,72.5861,413.246)">
+            <path d="M199.143,802.119L205.882,768.308" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:14px;"/>
+        </g>
+        <g id="path44872" serif:id="path4487" transform="matrix(0.678544,0,0,0.678544,147.586,414.717)">
+            <path d="M202.513,807.32L205.882,768.308" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:14px;"/>
+        </g>
+        <g id="path44873" serif:id="path4487" transform="matrix(0.678544,0,0,0.678544,77.5861,398.246)">
+            <path d="M268.831,846.331L246.725,868.437L231.988,846.331" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:14px;"/>
+        </g>
+    </g>
 </svg>
